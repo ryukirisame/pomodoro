@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="popup.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../icon.png" />
+    </header>
+
+    <main>
+      <section id="time-section">
+        <h1 id="time"></h1>
+        <div id="time-btns-container">
+          <button id="start-timer-btn">Start Timer</button>
+          <button id="reset-timer-btn">Reset Timer</button>
+        </div>
+      </section>
+      <section id="task-section">
+        <button id="add-task-btn">Add Task</button>
+        <div id="task-container"></div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
